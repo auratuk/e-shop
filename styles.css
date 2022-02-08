@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: georgia, garamond, sans-serif;
   background: linear-gradient(90deg, #7F7FD5 0%, #86A8E7 35%, #91EAE4 100%);
 }
 
@@ -40,9 +40,20 @@ body {
 
 .cards {
   display: grid;
-  grid-template-columns: auto auto auto auto;
   grid-column-gap: var(--spacer4);
   grid-row-gap: var(--spacer4);
+}
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 250px); }
+}
+
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 250px); }
+}
+
+@media (min-width: 1200px) {
+  .cards { grid-template-columns: repeat(4, 250px); }
 }
 
 .cards-wrapper {
@@ -50,47 +61,65 @@ body {
   justify-content: center;
 }
 
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .carousel {
-  width: 100%;
-  height: 25rem;
-  margin: auto;
   position: relative;
   overflow: hidden;
+  margin: var(--spacer3);
+  background: rgba( 255, 255, 255, 0.25 );
+  backdrop-filter: blur( 4px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 10px;
 }
 
-.carousel-btn {
+.carousel h1 {
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+  color: white;
+}
+
+.carousel-item a{
+  text-decoration: none;
+}
+
+.carousel .carousel-item,
+.carousel carousel-item--hidden {
+  display: none;
+  transition: all 1s ease-out;
+}
+
+.carousel .carousel-item--visible {
+  display: block;
+}
+
+.carousel .carousel-item img{
+  max-width: 100%;
+}
+
+.carousel .carousel-buttons {
+  width: 100%;
+  justify-content: space-between;
   position: absolute;
   top: 50%;
-  z-index: 10;
-  border: none;
-  background: rgba( 255, 255, 255, 7 );
-  color: #333;
-  border-radius: 50%;
-  height: 4.5rem;
-  width: 4.5rem;
-  font-size: 2.25rem;
+  transform: translateY(-50%);
+  display: none;
+}
+
+.carousel .carousel-buttons button{
   cursor: pointer;
+  height: 5rem;
+  background: rgba( 255, 255, 255, 0.25 );
+  backdrop-filter: blur( 4px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-
-.carousel-btn-left  {
-  left: 6%;
-  transform: translate(-50%, -50%);
-}
-
-.carousel-btn-right {
-  right: 6%;
-  transform: translate(50%, -50%);
-}
-
-.carousel-item {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 25rem;
+    
+.carousel:hover .carousel-buttons {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.5s;
 }
 
 .card > img {
