@@ -12,6 +12,8 @@ body {
 
 main {
   padding-top: 100px;
+  max-width: 900px;
+  margin: auto;
 }
 
 .top-nav {
