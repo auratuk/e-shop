@@ -10,9 +10,18 @@ body {
   background: linear-gradient(90deg, #7F7FD5 0%, #86A8E7 35%, #91EAE4 100%);
 }
 
+main {
+  padding-top: 100px;
+}
+
 .top-nav {
   background-color: #333;
   display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  max-height: 100px;
 }
 
 .top-nav a {
