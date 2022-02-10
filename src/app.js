@@ -1,7 +1,3 @@
 'use strict';
 
-import { initCarousel, addEventListenerCarouselRight, addEventListenerCarouselLeft } from './carousel';
-
-initCarousel();
-addEventListenerCarouselRight();
-addEventListenerCarouselLeft();
+import './carousel.js';

@@ -6,11 +6,11 @@ const rightButton = document.querySelector('.carousel-btn-right');
 
 let currentCarouselItem = 0;
 
-export const initCarousel = () => {
+const initCarousel = () => {
     transformSlides();
 }
 
-export const addEventListenerCarouselRight = rightButton.addEventListener('click', function() {
+rightButton.addEventListener('click', function() {
     if(currentCarouselItem === carouselItems.length - 1){
         currentCarouselItem = 0;
     } else {
@@ -20,7 +20,7 @@ export const addEventListenerCarouselRight = rightButton.addEventListener('click
     transformSlides();
 });
 
-export const addEventListenerCarouselLeft = leftButton.addEventListener('click', function() {
+leftButton.addEventListener('click', function() {
     if(currentCarouselItem === 0){
         currentCarouselItem = carouselItems.length - 1;
     } else {
@@ -40,3 +40,5 @@ function transformSlides() {
 
     carouselItems[currentCarouselItem].classList.add('carousel-item--visible');
 }
+
+initCarousel();
