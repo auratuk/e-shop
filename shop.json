@@ -1,0 +1,36 @@
+{
+    "carousel": [
+        {
+            "id": "e63b3885-28c8-4849-bf40-64d6bf38d76d",
+            "redirectUrl": "https://www.knygos.lt/lt/knygos/zanras/knygos-iki-4-99-eur--/",
+            "imgSrc": "https://thumb.knygos-static.lt/ae2UBEyUf9PmdaJYWHcdn8fe3lA=/fit-in/1010x300/images/news_stock/2312/bevyru-1010x300.png",
+            "desc": "Some amazing text 1"
+        },
+        {
+            "id": "d230055d-c0da-4e6d-acc3-50ac92a94c7a",
+            "redirectUrl": "https://www.knygos.lt/lt/knygos/zanras/leidyklos-obuolys-knygoms-nuo-30---iki-60--/",
+            "imgSrc": "https://thumb.knygos-static.lt/e0KhEVIH1h_SQQcHG0ciLIdeKR4=/fit-in/1010x300/images/news_stock/2316/sanatorija-1010x300.jpg",
+            "desc": "Some amazing text 2"
+        },
+        {
+            "id": "0ecc2496-d947-465d-b5ff-bc3849dd1e0e",
+            "redirectUrl": "https://www.knygos.lt/lt/knygos/zanras/totalinis-ispardavimas--galybe-knygu-iki--60---/",
+            "imgSrc": "https://thumb.knygos-static.lt/EqkikQcDoxNvfVtLfaoHP588eC8=/fit-in/1010x300/images/news_stock/2313/rijneveld-vakaro-nejauka-knygoslt-1010x300.jpg",
+            "desc": "Some amazing text 3"
+        },
+        {
+            "id": "f140f3b8-e8af-4e9c-988a-16e3b73549a8",
+            "redirectUrl": "https://www.knygos.lt/lt/knygos/stebintis-slapcia/",
+            "imgSrc": "https://thumb.knygos-static.lt/mrg3xUHfOuIvBJ0Fi2-Rhg69pew=/fit-in/1010x300/images/news_stock/2314/mieloji-rouz-1010x300.png",
+            "desc": "Some amazing text 4"
+        }
+    ],
+    "books": [
+        {
+            "id": "0b4e38ff-0fb4-40fa-9cc8-347b5d829c90",
+            "imgSrc": "https://thumb.knygos-static.lt/Il9MmEwdDbqiN-BxoE6qBOjHmQQ=/fit-in/0x230/images/books/2601474/1641973726_NaamJoo_KimDzijonge_72max.jpg",
+            "bookName": "Kim Džijongė, gimusi 1982",
+            "bookAuthor": "Cho Nam-joo"
+        }
+    ]
+}
