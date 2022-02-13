@@ -27,3 +27,13 @@ const loadBooks = async function(){
 }
 
 await loadBooks();
+
+const loginContainer = document.querySelector(".login-wrapper");
+
+document.querySelector(".login-btn").addEventListener("click", () =>{
+    loginContainer.style.display = "block";
+});
+
+document.querySelector(".login-close-btn").addEventListener("click", () =>{
+    loginContainer.style.display = "none";
+});
