@@ -29,8 +29,50 @@
         {
             "id": "0b4e38ff-0fb4-40fa-9cc8-347b5d829c90",
             "imgSrc": "https://thumb.knygos-static.lt/Il9MmEwdDbqiN-BxoE6qBOjHmQQ=/fit-in/0x230/images/books/2601474/1641973726_NaamJoo_KimDzijonge_72max.jpg",
-            "bookName": "Kim Džijongė, gimusi 1982",
-            "bookAuthor": "Cho Nam-joo"
+            "name": "Kim Džijongė, gimusi 1982",
+            "author": "Cho Nam-joo"
+        },
+        {
+            "id": "062c42ce-21f4-4040-94c7-b2d8372728be",
+            "imgSrc": "https://thumb.knygos-static.lt/QESMoQm00Ab1g0cZ0VVrgs6hjls=/fit-in/0x230/images/books/2318629/1616758615_Kopa_large.png",
+            "name": "Kopa",
+            "author": "Frank Herbert"
+        },
+        {
+            "id": "65e3ca6f-9384-48f3-9f0e-27f1e77dba11",
+            "imgSrc": "https://thumb.knygos-static.lt/590WLODAG38roe0GKq-wkAOrJj4=/fit-in/0x230/images/books/2643900/1635229515_Ishiguro_Klara_ir_saule_72max.jpg",
+            "name": "Kazuo Ishiguro",
+            "author": "Klara ir Saulė"
+        },
+        {
+            "id": "cd69aefe-9d0f-4caa-ba1b-2bedc5060b01",
+            "imgSrc": "https://thumb.knygos-static.lt/N0Mvh_DpdnGh_TUXXF68_PyI47w=/fit-in/0x230/images/books/2658828/1640848095_9786094900679_atsiskyrelio_buveine_1640769893.jpg",
+            "name": "Atsiskyrėlio buveinė",
+            "author": "L.J. Ross"
+        },
+        {
+            "id": "1470f9bb-a90f-4bf0-9173-f0f454041506",
+            "imgSrc": "https://thumb.knygos-static.lt/kLsQbn33ujHo8C1UycotRsDaKcc=/fit-in/0x230/images/books/2506498/1622095245_000000000001112395-6099214198bea-asset-knyguklubas-musu-kunai-ju-karo-laukas.jpg",
+            "name": "Mūsų kūnai - jų karo laukas",
+            "author": "Christina Lamb"
+        },
+        {
+            "id": "2dd8bdf5-88c8-4dfe-af95-124d0a90ad8c",
+            "imgSrc": "https://thumb.knygos-static.lt/TU3MNYSGmIgnaTcYxVHSfO-nJec=/fit-in/0x230/images/books/2598117/1619435774_Maze.jpg",
+            "name": "Mažė",
+            "author": "Edward Carey"
+        },
+        {
+            "id": "08f45a30-34c1-4c74-b7ef-a69e1846c046",
+            "imgSrc": "https://thumb.knygos-static.lt/VVmFSiAv97eACm-9ZlEmPK0Q3I8=/fit-in/0x230/images/books/2335321/1604387228_000000000001112475-5f9baae4d9b4f-asset-knyguklubas-pazadetoji-zeme.jpg",
+            "name": "Pažadėtoji žemė",
+            "author": "Barack Obama"
+        },
+        {
+            "id": "6373ec60-e741-4a6f-bc8b-d76166fb4978",
+            "imgSrc": "https://thumb.knygos-static.lt/lqzdFuqbyVMmvDITPKeDj2W8tyo=/fit-in/0x230/images/books/1498146/1587550928_Kunas-mena-viska-virselis-priekis.jpg",
+            "name": "Kūnas mena viską",
+            "author": "Bessel Van Der Kolk, M.D."
         }
     ]
 }
