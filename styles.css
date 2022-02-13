@@ -94,7 +94,7 @@ main {
   color: white;
 }
 
-.carousel-item a{
+.carousel a{
   text-decoration: none;
 }
 
@@ -112,25 +112,30 @@ main {
   max-width: 100%;
 }
 
-.carousel .carousel-buttons {
-  width: 100%;
-  justify-content: space-between;
+.carousel .carousel-buttons button{
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
-  display: none;
-}
-
-.carousel .carousel-buttons button{
+  z-index: 10;
   cursor: pointer;
   height: 5rem;
   background: rgba( 255, 255, 255, 0.25 );
   backdrop-filter: blur( 4px );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
+.carousel-btn.carousel-btn-left{
+  left: 0;
+  transform: translate(0%, -75%);
+}
+
+.carousel-btn.carousel-btn-right{
+  right: 0;
+  transform: translate(0%, -75%);
+}
     
 .carousel:hover .carousel-buttons {
   display: flex;
+  cursor: pointer;
 }
 
 .card > img {

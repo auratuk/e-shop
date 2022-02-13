@@ -9,12 +9,12 @@ const loadCarousel = async function(){
         const carouselItems = `
         ${data.map(carouselItem => {
             return `   
+            <a href="${carouselItem.redirectUrl}" target="_blank">
                 <div class="carousel-item">
-                    <a href="${carouselItem.redirectUrl}" target="_blank">
-                        <img src="${carouselItem.imgSrc}" />
-                        <h1>${carouselItem.desc}</h1>
-                    </a>
+                    <img src="${carouselItem.imgSrc}" />
+                    <h1>${carouselItem.desc}</h1>
                 </div>
+            </a>
             `
         }).join('')}`;
 
