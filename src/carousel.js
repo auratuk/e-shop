@@ -3,7 +3,7 @@
 const loadCarousel = async function(){
     try {
         const carouselContainer = document.querySelector('.carousel');
-        const carouselData = await fetch('http://localhost:3000/carousel');  
+        const carouselData = await fetch('https://my-json-server.typicode.com/auratuk/e-shop/carousel');  
         const data = await carouselData.json();
 
         const carouselItems = `

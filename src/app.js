@@ -5,7 +5,7 @@ import './carousel.js';
 const loadBooks = async function(){
     try {
         const cardsContainer = document.querySelector('.cards');
-        const booksData = await fetch('http://localhost:3000/books');  
+        const booksData = await fetch('https://my-json-server.typicode.com/auratuk/e-shop/books');  
         const data = await booksData.json();
 
         const books = `
