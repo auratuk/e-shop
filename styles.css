@@ -148,6 +148,18 @@ main {
   opacity: 1;
 }
 
+.card-delete-btn{
+  border-radius: 100%;
+  border: transparent;
+  font-size: 20px;
+  min-width: 25px;
+  min-height: 25px;
+  position: absolute;  
+  right: 0;
+  transform: translate(50%, -50%);
+  cursor: pointer;
+}
+
 .book-author {
   text-align: center;
   font-size: 14px;
@@ -228,6 +240,7 @@ main {
   right: 0;
   transform: translate(50%, -130%);
   cursor: pointer;
+  font-size: 20px;
 }
 
 .login-content h1{

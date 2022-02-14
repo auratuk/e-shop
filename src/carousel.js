@@ -2,6 +2,20 @@
 
 const loadCarousel = async function(){
     try {
+        const main = document.querySelector('main');
+
+        const carouselWrapper = `
+            <div class="carousel-wrapper">
+                <div class="carousel">
+                    <div class="carousel-buttons hide">
+                        <button class="carousel-btn carousel-btn-left">&larr;</button>
+                        <button class="carousel-btn carousel-btn-right">&rarr;</button>
+                    </div>
+                </div>
+            </div>`;
+
+        main.insertAdjacentHTML('afterbegin', carouselWrapper);
+
         const carouselContainer = document.querySelector('.carousel');
         const carouselData = await fetch('https://my-json-server.typicode.com/auratuk/e-shop/carousel');  
         const data = await carouselData.json();
