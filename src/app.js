@@ -37,3 +37,9 @@ document.querySelector(".login-btn").addEventListener("click", () =>{
 document.querySelector(".login-close-btn").addEventListener("click", () =>{
     loginContainer.style.display = "none";
 });
+
+window.addEventListener("click", (e) => {
+    if(e.target === loginContainer){
+        loginContainer.style.display = "none";
+    }
+})

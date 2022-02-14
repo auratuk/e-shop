@@ -272,3 +272,7 @@ main {
   text-align: right;
   display: block;
 }
+
+.login-wrapper {
+  display: none;
+}
