@@ -10,6 +10,9 @@ body {
     font-family: georgia, garamond, sans-serif;
     background: var(--backgroundColor);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer {
@@ -20,16 +23,15 @@ body {
     backdrop-filter: blur( 4px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     margin-top: var(--spacer3);
-    position: absolute;
-    width: 100%;
-    box-sizing: border-box;
+    margin-top: auto;
+    max-height: 52px;
 }
   
 main {
     max-width: 900px;
+    min-height: calc(100vh - 52px - 100px);
+    display: flex;
     margin: auto;
-    position: relative;
-    min-height: 100vh;
 }
 
 .page-logo {
@@ -50,7 +52,7 @@ main {
 }
   
 .login {
-    max-width: 400px;
+    min-width: 400px;
     height: 400px;
     backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(255, 255, 255, 0.75);
@@ -58,11 +60,6 @@ main {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 20px 30px 20px 30px;
     margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
 .login-content h1{

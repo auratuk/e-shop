@@ -9,6 +9,9 @@ body {
   margin: 0;
   font-family: georgia, garamond, sans-serif;
   background: var(--backgroundColor);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
@@ -71,6 +74,7 @@ main {
 .cards-wrapper {
   display: flex;
   justify-content: center;
+  margin-bottom: var(--spacer3);
 }
 
 .carousel-wrapper {
@@ -206,5 +210,5 @@ main {
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 4px );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  margin-top: var(--spacer3);
+  margin-top: auto;
 }
