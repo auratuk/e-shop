@@ -13,6 +13,10 @@
         const booksData = await fetch('https://my-json-server.typicode.com/auratuk/e-shop/books');  
         const data = await booksData.json();
 
+
+        //TODO:
+        //1. Remake using document.createElement
+        //2. Try out date-set
         const books = `
         ${data.map(book => {
             return `   
@@ -37,7 +41,6 @@
                 cardsContainer.removeChild(child);
             });
         });
-
     } catch (error) {
         alert(error);
     }

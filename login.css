@@ -1,0 +1,109 @@
+:root {
+    --spacer3: 1rem;
+    --spacer2: 0.5rem;
+    --spacer4: 2rem;
+    --backgroundColor: linear-gradient(90deg, #7F7FD5 0%, #86A8E7 35%, #91EAE4 100%);
+}
+
+body {
+    margin: 0;
+    font-family: georgia, garamond, sans-serif;
+    background: var(--backgroundColor);
+    min-height: 100vh;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: var(--spacer3);
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+main {
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+    min-height: 100vh;
+}
+
+.page-logo {
+    max-width: 80px; 
+    max-height: 55px;
+    margin: var(--spacer3);
+    float: center;
+  }
+
+.top-nav {
+    background-color: #333;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    max-height: 100px;
+}
+  
+.login {
+    max-width: 400px;
+    height: 400px;
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px 30px 20px 30px;
+    margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.login-content h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.login-content-item {
+    margin: 15px 0px;
+}
+
+.login-content-item label {
+    font-size: 16px;
+}
+
+.login-content-item input[type="text"],
+.login-content-item input[type="password"] {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.login-content-item button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #222;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.login-content-item a {
+    text-align: right;
+    display: block;
+}

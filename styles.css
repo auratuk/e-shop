@@ -133,6 +133,10 @@ main {
   right: 0;
   transform: translate(0%, -75%);
 }
+
+.carousel-buttons {
+  display: none;
+}
     
 .carousel:hover .carousel-buttons {
   display: flex;
@@ -203,89 +207,4 @@ main {
   backdrop-filter: blur( 4px );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   margin-top: var(--spacer3);
-}
-
-.login-wrapper {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  background-color: rgba(0,0,0,0.5);
-}
-
-.login {
-  max-width: 400px;
-  height: 400px;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.75);
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  padding: 20px 30px 20px 30px;
-}
-
-.login .login-close-btn {
-  border-radius: 100%;
-  border: transparent;
-  min-width: 25px;
-  min-height: 25px;
-  position: absolute;  
-  right: 0;
-  transform: translate(50%, -130%);
-  cursor: pointer;
-  font-size: 20px;
-}
-
-.login-content h1{
-  text-align: center;
-  font-size: 30px;
-}
-
-.login-content-item {
-  margin: 15px 0px;
-}
-
-.login-content-item label {
-  font-size: 16px;
-}
-
-.login-content-item input[type="text"],
-.login-content-item input[type="password"] {
-  margin-top: 5px;
-  display: block;
-  width: 100%;
-  padding: 10px;
-  outline: none;
-  border: 1px solid #aaa;
-  border-radius: 5px;
-  margin-right: 10px;
-  box-sizing: border-box;
-}
-
-.login-content-item button {
- width: 100%;
- height: 40px;
- border: none;
- outline: none;
- font-size: 16px;
- background: #222;
- border-radius: 10px;
- cursor: pointer;
- color: white;
-}
-
-.login-content-item a {
-  text-align: right;
-  display: block;
-}
-
-.login-wrapper {
-  display: none;
 }
