@@ -22,14 +22,13 @@ body {
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    margin-top: var(--spacer3);
     margin-top: auto;
-    max-height: 52px;
+    height: 52px;
 }
   
 main {
     max-width: 900px;
-    min-height: calc(100vh - 52px - 100px);
+    min-height: calc(100vh - 52px - 75px);
     display: flex;
     margin: auto;
 }
@@ -48,7 +47,7 @@ main {
     top: 0;
     width: 100%;
     z-index: 1;
-    max-height: 100px;
+    height: 75px;
 }
   
 .login {

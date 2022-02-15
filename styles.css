@@ -27,7 +27,7 @@ main {
   top: 0;
   width: 100%;
   z-index: 1;
-  max-height: 100px;
+  height: 75px;
 }
 
 .top-nav a {
@@ -211,4 +211,5 @@ main {
   backdrop-filter: blur( 4px );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   margin-top: auto;
+  height: 52px;
 }
