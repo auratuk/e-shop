@@ -1,6 +1,6 @@
 'use strict';
 
-import { deleteBook, updateBook, getBooks } from './bookService.js';
+import { deleteBook, updateBook, getBooks, createBook } from './bookService.js';
 
 (async function initBookShop() {
     try{
